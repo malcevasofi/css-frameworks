@@ -1,0 +1,78 @@
+body {
+	background-color: black;
+}
+.text-brand {
+	color: #189537;
+}
+.text-grey {
+	color: lightgray;
+}
+.text-darkgrey {
+	color: gray;
+}
+.f-bold {
+	font-weight: bold;
+}
+.text-title {
+	color: lime;
+}
+.f-headline {
+	font-family: headline, 'Amatic SC', cursive;
+}
+.f-title {
+	font-family: title, 'Amatic SC', cursive;
+}
+.f-elements {
+	font-family: elements, 'Amatic SC', cursive;
+}
+.logo {
+	max-width: 40px;
+}
+.bg-black {
+	background-color: black;
+}
+.f-48 {
+	font-size: 48px;
+}
+.f-24 {
+	font-size: 24px;
+}
+.f-18 {
+	font-size: 18px;
+}
+.bd-title {
+	font-size: 80px;
+}
+.video-youtube {
+	width: 50vw;
+	height: calc(50vw * 9 / 16);
+}
+.list-group-item:hover {
+	color: lime;
+}
+.list-group-item:focus {
+	border-color: lime;
+}
+.list-group-item.active {
+	border-color: lime;
+}
+.img-page {
+	width: 70vw;
+}
+.img-page:hover {
+	filter: brightness(1.2);
+	box-shadow: 0 0 30px rgba(100, 255, 100, 0.8);
+	transition: 0.3s;
+}
+.table-violet {
+	background-color: #d8bfd8;
+}
+.table-orange {
+	background-color: #ffe2bd;
+}
+.table-pink {
+	background-color: #ffd1dc;
+}
+.table-red {
+	background-color: #ffccbd;
+}

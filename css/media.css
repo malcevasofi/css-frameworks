@@ -1,0 +1,26 @@
+@media all and (max-width: 455px) {
+	.text-title {
+		font-size: 15vw;
+	}
+	.f-48 {
+		font-size: 8vw;
+	}
+	.f-24 {
+		font-size: 6vw;
+	}
+	.f-18 {
+		font-size: 4vw;
+	}
+	.no-xs {
+		display: none;
+	}
+	.text-footer {
+		font-size: 4vw;
+	}
+	.table {
+		font-size: 4vw;
+	}
+	.logo {
+		width: 20vw;
+	}
+}

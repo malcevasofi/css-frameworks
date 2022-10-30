@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Фреймворк Semantic UI </title>
+	<link rel="icon" href="images/icon.png" type="image/png">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	<style>
+		@font-face {
+			font-family: headline;
+			src: local(headline), url(font/GetVoIP_Grotesque_Italic.ttf);
+		}
+		@font-face {
+			font-family: title;
+			src: local(title), url(font/galaktika.ttf);
+		}
+		@font-face {
+			font-family: elements;
+			src: local(elements), url(font/GetVoIP_Grotesque.ttf);
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-dark navbar-expand-lg border-bottom">
+			<div class="container-fluid">
+				<div>
+					<a href="index.html" class="navbar-brand text-brand"><img class="logo" src="images/logo.png"></a>
+				</div>
+		  		<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+		  		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			  		<ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex">
+			  			<li class="nav-item">
+				        	<a class="nav-link text-success f-bold f-headline" aria-current="page" href="list.html">СПИСОК</a>
+				        </li>
+			  			<li class="nav-item dropdown">
+				  			<a href="#" class="nav-link dropdown-toggle text-success f-bold f-headline" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">ФРЕЙМВОРКИ</a>	
+				  			<ul class="dropdown-menu bg-dark">
+					  			<li>
+					  				<a href="bootstrap.html" class="dropdown-item f-elements text-brand">bootstrap</a>
+									<a href="skeleton.html" class="dropdown-item f-elements text-brand">skeleton</a>
+					  				<a href="vanilla.html" class="dropdown-item f-elements text-brand">vanilla</a>
+					  				<a href="bulma.html" class="dropdown-item f-elements text-brand">bulma</a>
+					  				<a href="foundation.html" class="dropdown-item f-elements text-brand">foundation</a>
+					  				<a href="base.html" class="dropdown-item f-elements text-brand">base</a>
+									<a href="uikit.html" class="dropdown-item f-elements text-brand">uikit</a>
+				  					<a href="semantic-ui.html" class="dropdown-item f-elements text-brand">semantic ui</a>
+				  					<a href="tailwind-css.html" class="dropdown-item f-elements text-brand">tailwind css</a>
+				  					<a href="pure.html" class="dropdown-item f-elements text-brand">pure</a>
+				  				</li>
+					  		</ul>
+					  	</li>
+				  	</ul>
+		  		</div>
+		  	</div>
+		</nav>
+	</header>
+	<div class="container-fluid bd-gutter mt-5 my-md-4 bd-layout">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 col-xs-12 col-sm-12 col-md-12 col-lg-10 col-xl-10">
+				    <main class="bd-main">
+				     	<div class="align-items-center justify-content-between d-flex">
+				          	<h1 class="bd-title mb-0 text-title f-title" id="content">Semantic UI</h1>
+				    	</div>
+				    	<div class="py-2"></div>
+				    	<p class="bd-lead text-darkgrey f-24 f-elements">Semantic - это фреймворк, который помогает создавать красивые, отзывчивые макеты с использованием удобного для пользователя HTML.</p>
+				    	<a class="link-img-page" href="images/semantic.png" target="_blank" class=""><img class="img-page" src="images/semantic.png"></a>
+				    	<div class="py-2 d-none d-mg-block d-sm-block"></div>
+				    	<h6 class="text-center d-none d-md-block d-sm-block d-lg-none d-xl-none d-xxl-none text-success f-bold f-headline text-grey"> ОБЗОР СТРАНИЦЫ </h6>
+				    	<div class="list-group py-2 d-none d-mg-block d-sm-block d-lg-none d-xl-none d-xxl-none" id="list-tab" role="tablist">
+					    	<a href="#description" class="list-group-item list-group-item-action bg-dark f-elements text-grey" role="tab">Описание</a>
+					    	<a href="#links" class="list-group-item list-group-item-action bg-dark f-elements text-grey" role="tab">Установка</a>
+					    	<a href="#docs" class="list-group-item list-group-item-action bg-dark f-elements text-grey" role="tab">Доки</a>
+					    	<a href="#examples" class="list-group-item list-group-item-action bg-dark f-elements text-grey" role="tab">Примеры</a>
+					    	<a href="#icons" class="list-group-item list-group-item-action bg-dark f-elements text-grey" role="tab">Иконки</a>
+					    	<a href="#video" class="list-group-item list-group-item-action bg-dark f-elements text-grey" role="tab">Видео-урок</a>
+					    </div>
+					    <div class="py-2"></div>
+					    <p class="bd-lead text-grey f-18 f-elements" id="description">Semantic UI рассматривает слова и классы как взаимозаменяемые понятия. Классы используют синтаксис естественных языков, такой как отношения существительное / модификатор, порядок слов и множественность, чтобы интуитивно связать понятия. <br>Семантика использует простые фразы, называемые поведением, которые запускают функциональность. Любое произвольное решение в компоненте включается в качестве параметра, который разработчики могут изменять. <br>Единственная догма из этой структуры: все произвольное изменчиво.</p>
+					    <h2 class="text-success f-48 f-title" id="links">Как подключить к своему проекту?</h2>
+					    <p class="bd-lead text-grey f-18 f-elements">Чтобы интегрировать фреймворк в свой проект, нужно воспользоваться пакетными менеджерами, загрузить исходный код. Подробнее об этом можно узнать <a class="link-warning" href="https://semantic-ui.com/introduction/integrations.html">здесь</a>.<br>Исходный код доступен на <a class="link-info" href="https://github.com/semantic-org/semantic-ui">GitHub</a></p>
+					    <h2 class="text-success f-48 f-title" id="docs">Документация</h2>
+					    <p class="bd-lead text-grey f-18 f-elements">Semantic UI предлагает пользователям в целом подробную <a class="link-warning" href="https://semantic-ui.com/elements/button.html">документацию</a>, где раскрыты все основные и дополнительные моменты.</p>
+					    <a class="link-img-page" href="images/semantic-docs.png" target="_blank" class=""><img class="img-page" src="images/semantic-docs.png"></a>
+					    <div class="py-2"></div>
+					    <h2 class="text-success f-48 f-title" id="examples">Примеры</h2>
+					    <p class="bd-lead text-grey f-18 f-elements">Отдельные решения элементов сайта можно увидеть на <a class="link-warning" href="hhttps://semantic-ui.com/usage/layout.html">примерах</a>.</p>
+					    <a class="link-img-page" href="images/semantic-examples.png" target="_blank" class=""><img class="img-page" src="images/semantic-examples.png"></a>
+					    <div class="py-2"></div>
+					    <h2 class="text-success f-48 f-title" id="icons">Иконки</h2>
+					    <p class="bd-lead text-grey f-18 f-elements">У Semantic UI есть свои <a class="link-warning" href="https://semantic-ui.com/elements/icon.html">иконки</a>.</p>
+					    <a class="link-img-page" href="images/semantic-icons.png" target="_blank" class=""><img class="img-page" src="images/semantic-icons.png"></a>
+					    <div class="py-2"></div>
+					    <h2 class="text-success f-48 f-title" id="video">Видео-урок</h2>
+					    <p class="bd-lead text-grey f-18 f-elements">Для знакомства с Semantic UI можно посмотреть видео: </p>
+					    <div class="video">
+					    	<iframe class="video-youtube" src="https://www.youtube.com/embed/pSKGEob1sQo" id="video"></iframe>
+					    </div>
+				    </main>
+			  	</div>
+			  	<div class="col-md-3 col-lg-2 col-xl-2 py-2 d-none d-lg-block">
+			  		<h6 class="text-center d-none d-lg-block text-success f-bold f-headline text-grey"> СОДЕРЖАНИЕ </h6>
+					<div class="list-group py-2 d-none d-md-block" id="list-tab" role="tablist">
+				    	<a href="#description" class="list-group-item list-group-item-action bg-dark f-elements text-grey" role="tab">Описание</a>
+				    	<a href="#links" class="list-group-item list-group-item-action bg-dark f-elements text-grey" role="tab">Установка</a>
+				    	<a href="#docs" class="list-group-item list-group-item-action bg-dark f-elements text-grey" role="tab">Доки</a>
+				    	<a href="#examples" class="list-group-item list-group-item-action bg-dark f-elements text-grey" role="tab">Примеры</a>
+				    	<a href="#icons" class="list-group-item list-group-item-action bg-dark f-elements text-grey" role="tab">Иконки</a>
+				    	<a href="#video" class="list-group-item list-group-item-action bg-dark f-elements text-grey" role="tab">Видео-урок</a>
+				    </div>
+			  		<div class="py-2"></div>
+			  		<h6 class="text-center d-none d-lg-block text-success f-bold f-headline">ФРЕЙМВОРКИ</h6>
+					<div class="list-group py-2 d-none d-lg-block" id="list-tab" role="tablist">
+				    	<a class="list-group-item list-group-item-action bg-dark f-elements text-grey" href="bootstrap.html" role="tab">bootstrap</a>
+				    	<a class="list-group-item list-group-item-action bg-dark f-elements text-grey" href="skeleton.html" role="tab">skeleton</a>
+				    	<a class="list-group-item list-group-item-action bg-dark f-elements text-grey" href="vanilla.html" role="tab">vanilla</a>
+				    	<a class="list-group-item list-group-item-action bg-dark f-elements text-grey" href="bulma.html" role="tab">bulma</a>
+				    	<a class="list-group-item list-group-item-action bg-dark f-elements text-grey" href="foundation.html" role="tab">foundation</a>
+				    	<a class="list-group-item list-group-item-action bg-dark f-elements text-grey" href="base.html" role="tab">base</a>
+				    	<a class="list-group-item list-group-item-action bg-dark f-elements text-grey" href="uikit.html" role="tab">uikit</a>
+				    	<a class="list-group-item list-group-item-action bg-dark f-elements text-grey" href="semantic-ui.html" role="tab">semantic ui</a>
+				    	<a class="list-group-item list-group-item-action bg-dark f-elements text-grey" href="tailwind-css.html" role="tab">tailwind css</a>
+				    	<a class="list-group-item list-group-item-action bg-dark f-elements text-grey" href="pure.html" role="tab">pure</a>
+				    </div>
+			  	</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid bg-black">
+		<footer class="bd-footer py-2 py-md-3 mx-0 mt-4 d-flex bg-black">
+			<div class="container py-2 py-md-3 px-4 px-md-3 f-headline">
+				<div class="text-center border-bottom pb-3 mb-3 text-grey text-footer">
+					Malceva Sofie's personal website uses Bootstrap 5.2</div>
+				<div class="text-center text-grey text-footer">Some rights reserved. 2022</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
