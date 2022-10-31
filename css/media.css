@@ -24,3 +24,9 @@
 		width: 20vw;
 	}
 }
+@media all and (max-width: 992px) {
+	.video-youtube {
+		width: 70vw;
+		height: calc(75vw * 9 / 16);
+	}
+}
