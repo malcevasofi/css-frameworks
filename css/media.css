@@ -1,3 +1,9 @@
+@media all and (max-width: 992px) {
+	.video-youtube {
+		width: 70vw;
+		height: calc(70vw * 9 / 16);
+	}
+}
 @media all and (max-width: 455px) {
 	.text-title {
 		font-size: 15vw;
